@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        nav .logo h2 {
+            color: white;
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: bold;
+            background-color: #555;
+            padding: 5px;
+            
+        }
+        .conteiner_0 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .menu_icon {
+            margin-right: 10px;
+            margin-left: 10px;
+
+        }
+        .search_bar {
+            margin: 20px;
+            width: fit-content;
+
+        }
+        .search_bar input[type="text"] {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .search_bar button {
+            padding: 5px 10px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .search_bar button:hover {
+            background-color: #555;
+        }
+        .conteiner_1 {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            width: 98%;
+            height: fit-content;
+            border: 1px solid #ccc;
+            background-color: #d6d0d0;
+            border-radius: 2%;
+
+        }
+       section div {
+        width: 20%;
+        height: fit-content;
+        border: 1px solid #ccc;
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 5px;
+       } 
+       section div:hover {
+        background-color: #e0e0e0;
+       }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class  = "logo_img">
+            <img src="logo.png" alt="Logo" width="50" height="50">
+
+        </div>
+
+        <div class="logo">
+            <h2>My Website</h2>
+        </div>
+
+        <ul>
+            <li><a href="#index">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="signup.html">Signup</a></li>
+        </ul>
+    </nav>
+<section class="conteiner_0">
+    <div class="menu_icon">
+        <img src="menu.png" alt="Menu" width="30" height="30">
+    </div> 
+
+    <div class="search_bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+</section>
+    <h1>Home page</h1>
+    <p>Welcome to the home page!</p>
+
+    <section class="conteiner_1">
+     <div class="conteiner_1_1">
+        <h2>Section 1</h2>
+        <p>This is the first section of the container.</p>
+     </div>
+        <div class="conteiner_1_2">
+            <h2>Section 2</h2>
+            <p>This is the second section of the container.</p>
+        </div>
+        <div class="conteiner_1_3">
+                <h2>Section 3</h2>
+                <p>This is the third section of the container.</p>
+         </div>
+         <div class="conteiner_1_4">
+            <h2>Section 4</h2>
+            <p>This is the fourth section of the container.</p>
+        </div>
+
+
+        
+    </section>
+</body>
+</html>
